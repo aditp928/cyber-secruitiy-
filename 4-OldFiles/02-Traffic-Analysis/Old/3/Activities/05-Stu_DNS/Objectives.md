@@ -1,0 +1,18 @@
+- Students should know what DNS is.
+- Students should know how DNS works.
+- Students should understand the recursive nature of DNS.
+- Students should know the following vocabulary:
+  - Domain name
+  - DNS lookup/resolution
+  - Nameservers
+  - Subdomains
+  - Record types
+  - CNAME
+  - A records
+  - `nslookup`
+  - flag
+- Students should know which transport layer protocol DNS runs off of.
+- Students should know which port DNS runs off of.
+- Students should know why DNS is important.
+- Students should know when nameservers are used.
+- Students should be able to dissect a DNS request/reply packet using Wireshark.

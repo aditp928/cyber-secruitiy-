@@ -1,0 +1,7 @@
+Site Reliability Engineering <https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/product-reviews/149192912X>
+How to Measure Anything in Cybersecurity Risk <https://www.amazon.com/How-Measure-Anything-Cybersecurity-Risk/dp/1536669741>
+The Practice of Network Security Engineering <https://nostarch.com/nsm>
+The Phoenix Project <https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592>
+Hacking Exposed 7: Network Security Secrets and Solutions <https://www.amazon.com/Hacking-Exposed-Network-Security-Solutions/dp/0071780289>
+Unmasking the Social Engineer <https://www.amazon.com/Unmasking-Social-Engineer-Element-Security/dp/1118608577/ref=sr_1_1?s=books&ie=UTF8&qid=1526961097&sr=1-1&keywords=unmasking+the+social+engineer>
+Secrets and Lies <https://www.amazon.com/Secrets-Lies-Digital-Security-Networked/dp/0471453803/ref=sr_1_3?s=books&ie=UTF8&qid=1526961115&sr=1-3&keywords=secrets+and+lies>

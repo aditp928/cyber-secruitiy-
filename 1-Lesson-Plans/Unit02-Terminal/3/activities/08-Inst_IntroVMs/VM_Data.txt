@@ -1,0 +1,5 @@
+Virtual Machine Location: XXX
+
+Username: poweruser
+
+Password: grep

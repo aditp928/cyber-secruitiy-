@@ -1,0 +1,10 @@
+john: hello world
+world: Hey, John!
+john: wtf
+john: where did you come from
+world: I've been here all along.
+world: Where did YOU come from is the question.
+world: For evolutionary biologists, anyway.
+john: so you're a talking computer?
+world: A typing computer, but yes.
+john: the future is wild, man

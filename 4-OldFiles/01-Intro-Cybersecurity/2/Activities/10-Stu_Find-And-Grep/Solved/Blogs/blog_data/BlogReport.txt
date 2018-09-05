@@ -1,0 +1,34 @@
+Happy vs. Sad
+Happy: 586
+Sad: 498
+
+Gender:
+Male: 490
+Female: 510
+
+Month: 
+January: 126
+February: 127
+March: 197
+April: 177
+May: 840
+June: 840
+July: 545
+August: 670
+September: 143
+October: 123 
+November: 129
+December: 137
+
+Horoscope:
+Aries: 78
+Libra: 102
+Taurus: 85
+Scorpio: 100
+Gemini: 85
+Sagittarius: 78
+Cancer: 85
+Capricorn: 67
+Leo: 82
+Virgo: 95
+Pisces: 83

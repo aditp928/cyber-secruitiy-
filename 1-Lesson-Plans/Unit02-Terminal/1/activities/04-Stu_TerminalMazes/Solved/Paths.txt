@@ -1,0 +1,56 @@
+Maze 1
+------------------------------
+Start.txt
+    Left
+        Left
+        Right
+        Bonus.txt
+    Right
+        Left
+            Left
+            Right
+        Right
+            End
+
+Maze 2
+------------------------------
+Start.txt
+    Left
+        Left
+            Bonus.txt
+        Right
+    Right
+        Left
+            Left
+                End
+            Right
+        Right
+            Left
+                Left
+                Right
+            Right
+
+Maze 3 
+------------------------------
+Start.txt
+    Left
+        Left
+            Left
+                Left
+                Right
+            Right
+                Bonus.txt
+        Right
+    Right
+        Left
+            Left
+                Left
+                    Left
+                    Right
+                        End
+                Right
+            Right
+        Right
+            Left
+            Right
+

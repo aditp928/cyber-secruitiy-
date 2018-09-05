@@ -1,0 +1,36 @@
+## Notes
+
+- The options to the `useradd` command are worth spending some time on.
+  - **Personal Directory**
+    - First, do `useradd dummy`, *without* `-m`
+    - Then, change into `/home`, and do an `ls` 
+        - This is where users store their files
+        - Point out that there's a `root/` folder here, but nothing else
+        - We want `dummy` to have a dedicated folder here, too, but we have to add a flag to create one
+    - Run: `deluser dummy`
+        - This deletes the user we created
+    - Next, run: `useradd -m dummy`
+    - `cd /home`
+    - `ls`. Note that there's now a folder called `dummy`. This is where this user should save all their files, and is where you'll land when you SSH.
+ - **Bash Shell**
+   - Next, demonstrate logging in as `dummy`: `su dummy`
+     - Since you're already `root`, you won't get prompted for a password
+   - This loads up a janky looking shell. 
+   - Run: `cd /home`
+   - Type: `cd dum`, and try to tab-complete
+     - Tab-completion doesn't work...This shell sucks.
+   - Explain that this is because, when we create a new user, Linux sets it to use a "lightweight" default shell
+   - ...But we want to use the shell we're familiar with, which is `bash`
+   - Remind students that every command on Linux that we've used is just a file!
+   - Explain that `bash` is just a file, too
+   - We can figure out where this file lives by typing: `which bash`
+     - This prints: `/bin/bash`
+   - When we create a user, we can specify which program to run as their shell, as well
+   - Delete the user's home directory: `rm -rf dummy`
+   - Delete the user: `deluser dummy`
+   - Now, re-create them, but specify the shell: `useradd -m -s /bin/bash dummy`
+   - `passwd dummy`
+   - Now, when we login, we'll get the same shell we're used to!
+   - `cd /home`
+   - `su dummy`
+   - Type: `cd dum`, and try to tab-complete. It should work!

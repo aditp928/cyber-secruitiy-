@@ -1,0 +1,5 @@
+- Students should continue to be able to navigate the Wireshark UI.
+- Students should be able to describe a TCP connection.
+- Students should be able to explain why TCP connections are used.
+- Students should be able explain the 3-way handshake.
+- Students should be able to explain the TCP teardown.

@@ -1,0 +1,43 @@
+{
+  "name": "cyber-lp",
+  "version": "1.0.0",
+  "description": "Lesson plans and activities for Cyber curriculum",
+  "repository": "git@github.com:coding-boot-camp/Cybersecurity-Lesson-Plans.git",
+  "author": "Nick Bartlett",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "remark . -e .md -r .remarkrc.js --quiet --frail && find . -path ./node_modules -prune -o -type f -name *.py -print | xargs -I {} pycodestyle --show-source {}",
+    "autofix": "remark . -e .md -r .remarkrc.js -o --quiet --frail && find . -path ./node_modules -prune -o -type f -name *.py -print | xargs -I {} autopep8 --in-place --aggressive --aggressive {}",
+    "spellcheck": "cspell -u \"**/*.*\"",
+    "test": "npm run-script lint && cspell \"**/*.*\""
+  },
+  "keywords": [
+    "curriculum",
+    "data visualization",
+    "data analytics"
+  ],
+  "contributors": [
+    "Nick Bartlett",
+    "Peleke Sengstacke",
+    "Doug Wallner",
+    "Vincent Zhen",
+    "Jeff Meacham"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-push": "bash ./generateTimeTracker.sh"
+    }
+  },
+  "devDependencies": {
+    "cspell": "^2.1.7",
+    "husky": "^1.0.0-rc.8",
+    "remark-cli": "^5.0.0",
+    "remark-comment-config": "^5.0.2",
+    "remark-lint": "^6.0.1",
+    "remark-preset-lint-markdown-style-guide": "^2.1.1",
+    "remark-toc": "^5.0.0",
+    "remark-validate-links": "^7.0.0",
+    "timetracker-generator": "git+https://github.com/coding-boot-camp/timetracker-generator.git"
+  }
+}

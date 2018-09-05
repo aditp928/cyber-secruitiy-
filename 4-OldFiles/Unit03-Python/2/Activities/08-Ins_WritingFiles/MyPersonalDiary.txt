@@ -1,0 +1,4 @@
+Dear Diary,
+Today I learned how to write text into files using Python! It was pretty great.
+Sincerely, 
+Jacob
